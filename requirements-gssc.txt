@@ -1,0 +1,24 @@
+# GSSC workshop dependencies. Tested with Python 3.12.
+# Activate your virtual environment, then install from this directory with:
+#   python -m pip install -r requirements-gssc.txt
+# Git must be installed to fetch the pinned GSSC source below.
+
+# Pretrained classifier: this exact revision is checked by gssc_quickstart.py.
+gssc @ git+https://github.com/jshanna100/gssc.git@2da29b0715242f3a76b0daab2ba7d593a91eb7f8
+
+# Scientific computing, sample-data downloads and plotting.
+torch>=2.6,<3
+mne>=1.7,<2
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.2,<4
+matplotlib>=3.8,<4
+importlib-resources>=6,<7
+pooch>=1.8,<2
+ipython>=8,<10
+
+# VS Code interactive cells and notebook support.
+ipywidgets>=8,<9
+ipykernel>=6,<8
+nbformat>=5,<6
+nbclient>=0.10,<1

@@ -1,0 +1,2 @@
+# Default: the YASA teaching environment. Python 3.12 is recommended.
+-r requirements-yasa.txt
