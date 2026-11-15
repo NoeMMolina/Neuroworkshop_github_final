@@ -1,0 +1,27 @@
+# Working environments stay local; attendees recreate them from requirements.
+.venv*/
+venv/
+env/
+
+# Downloaded samples, generated results and runtime caches
+data/
+outputs/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.mplconfig*/
+.numba-cache/
+.ipython*/
+.jupyter*/
+.pip-cache/
+.runtime/
+
+# Machine-specific settings and temporary files
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+.env
+.env.*
+*.log
+*.zip
